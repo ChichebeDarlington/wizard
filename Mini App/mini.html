@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini-App</title>
+    <link rel="stylesheet" href="mini.css">
+</head>
+<body>
+  <div id="wrapper">
+      <header>
+          <div id="page-banner">
+              <h1 class="title">Bookorama</h1>
+              <p>Books for Ninjas</p>
+              <form id="search-books" action="">
+                  <input type="text" placeholder="search books...">
+              </form>
+          </div>
+      </header>
+      <div id="book-list">
+          <h2 class="title">Books to read</h2>
+          <ul>
+              <li>
+                  <span class="name">Name of the wind</span>
+                  <span class="delete">delete</span>
+              </li>
+              <li>
+                <span class="name">The Wise Mans Fear</span>
+                <span class="delete">delete</span>
+            </li>
+            <li>
+                <span class="name">Kafka On The Shore</span>
+                <span class="delete">delete</span>
+            </li>
+            <li>
+                <span class="name">The Master and the Margarita</span>
+                <span class="delete">delete</span>
+            </li>
+           
+          </ul>
+      </div>
+      <form id="add-book" action="">
+          <input type="checkbox" id="hide">
+          <label for="hide">Hide all books</label>
+          <input type="text" placeholder="Add a book">
+          <button>Add</button>
+      </form>
+  </div>
+    
+  <script src="mini.js"></script>
+</body>
+</html>
